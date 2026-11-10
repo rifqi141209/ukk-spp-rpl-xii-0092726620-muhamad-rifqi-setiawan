@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class spps extends Model
 {
     protected $fillable = [
-        'id_user',
+        'id_spp',
         'tahun',
         'nominal',
         'keterangan',

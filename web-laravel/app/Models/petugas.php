@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Monolog\Level;
+use Illuminate\Foundation\Auth\User;
 
 class petugas extends Model
 {
@@ -16,4 +17,6 @@ class petugas extends Model
         'created_at',
         'updated_at',
     ];
+
+
 }
