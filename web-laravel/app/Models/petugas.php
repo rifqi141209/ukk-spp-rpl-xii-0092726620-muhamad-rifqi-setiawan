@@ -18,5 +18,9 @@ class petugas extends Model
         'updated_at',
     ];
 
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
 
 }
