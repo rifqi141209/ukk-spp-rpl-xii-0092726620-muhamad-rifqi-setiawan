@@ -8,5 +8,5 @@ Route::get('/', function () {
     return view('layout');
 });
 
-Route::get('login', [authController::class])->name('PRlogin');
-Route::post('login', [AuthController::class])->name('proseslogin');
+Route::get('login', [authController::class 'login'])
+Route::post('login', [AuthController::class 'proseslogin']);

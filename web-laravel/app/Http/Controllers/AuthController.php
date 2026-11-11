@@ -8,5 +8,5 @@ use Illuminate\Auth;
 
 class AuthController extends Controller
 {
-     
+     public function 
 }
